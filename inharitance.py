@@ -4,8 +4,9 @@ class parent:
 
 class child(parent):
     def fun2(self):
-        super().fun1()
         print("welcome")
+    def fun1(self):
+        print("Hi")
 
 obj = child()
-obj.fun2()
+obj.fun1()

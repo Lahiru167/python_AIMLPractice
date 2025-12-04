@@ -9,3 +9,6 @@ print(y)
 
 z = list(filter(lambda x:x%2==0, number))
 print(z)
+
+x=list(map(lambda x:x*2,number))
+print(x)

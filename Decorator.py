@@ -7,11 +7,12 @@ def new(func):
             return func(a,b)
     return inside
 
+@new
 def Devide(a,b):
     return a/b
 
 
-Devide = new(Devide)
+
 
 
 print(Devide(5,0))

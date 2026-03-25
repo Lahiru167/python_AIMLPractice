@@ -38,3 +38,5 @@ while True:
         print("Result:", div(num1,num2))
     else:
         print("Invalid input")
+        
+print("Program ended.")
